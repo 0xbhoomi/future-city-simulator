@@ -12,41 +12,41 @@ About the Project:
 
 Future City Simulator is a beginner-friendly web application that helps users explore how future cities can be designed using technology, sustainability, and smart systems.
 
-The idea behind this project is to make people think about:
+*The idea behind this project is to make people think about:
 
-Clean energy
+*Clean energy
 
-Smart infrastructure
+*Smart infrastructure
 
-Green environments
+*Green environments
 
-Better urban planning
+*Better urban planning
 
 Instead of being theoretical, this project shows concepts visually in a simple and interactive way.
 
  Objectives:
  
-To demonstrate the concept of a smart future city
+*To demonstrate the concept of a smart future city
 
-To create an interactive learning experience
+*To create an interactive learning experience
 
-To build a complete working website as a beginner
+*To build a complete working website as a beginner
 
-To make a project that is simple, elegant, and meaningful
+*To make a project that is simple, elegant, and meaningful
 
  Features:
  
-Interactive city layout
+*Interactive city layout
 
-Click-based or visual elements
+*Click-based or visual elements
 
-Clean and minimal UI
+*Clean and minimal UI
 
-Runs fully in the browser
+*Runs fully in the browser
 
-No backend required
+*No backend required
 
-Easy to understand and extend
+*Easy to understand and extend
 
  Tech Stack
  
