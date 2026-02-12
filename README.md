@@ -1,16 +1,27 @@
 Future City Simulator
+
 A simple interactive web project that simulates how a smart and sustainable city could work in the future. This project is built using basic web technologies and focuses on visual learning and user interaction.
+
  Live Demo:
 https://0xbhoomi.github.io/future-city-simulator/
+
  GitHub Repo:
 https://github.com/0xbhoomi/future-city-simulator
+
 About the Project:
+
 Future City Simulator is a beginner-friendly web application that helps users explore how future cities can be designed using technology, sustainability, and smart systems.
+
 The idea behind this project is to make people think about:
+
 Clean energy
+
 Smart infrastructure
+
 Green environments
+
 Better urban planning
+
 Instead of being theoretical, this project shows concepts visually in a simple and interactive way.
  Objectives:
 To demonstrate the concept of a smart future city
