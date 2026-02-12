@@ -1,0 +1,172 @@
+/* Basic Reset and Font Setup */
+* {
+    box-sizing: border-box;
+    /* Ensures padding doesn't affect total width */
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f4f8;
+    /* Light blue-grey background */
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Main Container to center content */
+.container {
+    max-width: 600px;
+    /* Keeps the app looking good on large screens */
+    margin: 0 auto;
+    /* Centers the container */
+    text-align: center;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+/* Card Styling for Sections */
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* Soft shadow for depth */
+    margin-bottom: 20px;
+}
+
+/* Input Group Styling */
+.input-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Styling Inputs */
+input[type="range"] {
+    width: 100%;
+    /* Full width slider */
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.note {
+    font-size: 0.85em;
+    color: #666;
+    font-style: italic;
+}
+
+/* Button Styling */
+button {
+    background-color: #27ae60;
+    /* Green */
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #219150;
+    /* Darker green on hover */
+}
+
+/* Arrow divider */
+.arrow {
+    font-size: 24px;
+    color: #bdc3c7;
+    margin: 10px 0;
+}
+
+/* Results Grid */
+.stats-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* Two columns */
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.stat-box {
+    background-color: #ecf0f1;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.stat-box h3 {
+    font-size: 14px;
+    color: #7f8c8d;
+    margin-bottom: 5px;
+}
+
+.stat-box p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+/* Highlight the score box */
+.stat-box.highlight {
+    background-color: #e8f8f5;
+    border: 2px solid #27ae60;
+}
+
+.stat-box.highlight p {
+    color: #27ae60;
+    font-size: 22px;
+}
+
+.feedback {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #2980b9;
+}
+
+/* How it works section */
+.info-section {
+    text-align: left;
+    margin-top: 30px;
+    font-size: 0.9em;
+    color: #555;
+    background: #e8e8e8;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.info-section ul {
+    padding-left: 20px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 480px) {
+    .stats-grid {
+        grid-template-columns: 1fr;
+        /* Stack columns on small screens */
+    }
+}

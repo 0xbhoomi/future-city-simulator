@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Future City Simulator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <!-- Header Section -->
+        <header>
+            <h1>Future City Simulator</h1>
+            <p>Design your city and see the impact on the environment!</p>
+        </header>
+
+        <!-- Simulation Inputs -->
+        <section class="card input-section">
+            <h2>City Configuration</h2>
+
+            <!-- Population Input -->
+            <div class="input-group">
+                <label for="population">Population: <span id="pop-value">50,000</span></label>
+                <input type="range" id="population" min="1000" max="1000000" value="50000" step="1000">
+            </div>
+
+            <!-- Energy Sources -->
+            <div class="input-group">
+                <h3>Energy Sources (%)</h3>
+                <label for="coal">Coal: <span id="coal-value">50</span>%</label>
+                <input type="range" id="coal" class="energy-slider" min="0" max="100" value="50">
+
+                <label for="solar">Solar: <span id="solar-value">30</span>%</label>
+                <input type="range" id="solar" class="energy-slider" min="0" max="100" value="30">
+
+                <label for="wind">Wind: <span id="wind-value">20</span>%</label>
+                <input type="range" id="wind" class="energy-slider" min="0" max="100" value="20">
+                <p class="note">Note: Try to make them add up to 100% for a realistic mix!</p>
+            </div>
+
+            <!-- Transport Selection -->
+            <div class="input-group">
+                <label for="transport">Transport System:</label>
+                <select id="transport">
+                    <option value="car">Private Cars (High Pollution)</option>
+                    <option value="public">Public Transport (Medium Pollution)</option>
+                    <option value="electric">Electric Vehicles (Low Pollution)</option>
+                </select>
+            </div>
+
+            <button id="simulate-btn">Simulate Choice</button>
+        </section>
+
+        <!-- Use an arrow or divider to show flow -->
+        <div class="arrow">⬇</div>
+
+        <!-- Results Section -->
+        <section class="card result-section" id="results">
+            <h2>Simulation Results</h2>
+            <div class="stats-grid">
+                <div class="stat-box">
+                    <h3>Energy Usage</h3>
+                    <p id="energy-result">0 kWh</p>
+                </div>
+                <div class="stat-box">
+                    <h3>CO₂ Emissions</h3>
+                    <p id="co2-result">0 tons</p>
+                </div>
+                <div class="stat-box">
+                    <h3>Pollution Level</h3>
+                    <p id="pollution-result">None</p>
+                </div>
+                <div class="stat-box highlight">
+                    <h3>Sustainability Score</h3>
+                    <p id="score-result">0 / 100</p>
+                </div>
+            </div>
+            <p id="feedback-msg" class="feedback">Adjust the settings and click Simulate!</p>
+        </section>
+
+        <!-- Educational Section -->
+        <section class="info-section">
+            <h3>How this simulation works</h3>
+            <ul>
+                <li><strong>Population:</strong> More people means more energy consumption.</li>
+                <li><strong>Energy:</strong> Coal produces high CO₂, while Solar and Wind are clean.</li>
+                <li><strong>Transport:</strong> Private cars cause more pollution than public or electric transport.
+                </li>
+                <li><strong>Sustainability:</strong> A score of 100 means your city is perfectly eco-friendly!</li>
+            </ul>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
