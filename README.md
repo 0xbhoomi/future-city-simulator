@@ -7,7 +7,6 @@ Live Demo
 
 Website:
 Repository:
-
 https://github.com/0xbhoomi/future-city-simulator
 Why This Project?
 Cities are responsible for the majority of global energy use and carbon emissions. However, most people do not get to see how everyday decisions scale up into large environmental impacts.
