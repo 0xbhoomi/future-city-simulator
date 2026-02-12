@@ -6,10 +6,9 @@ The project is designed to make complex ideas in urban planning and sustainabili
 Live Demo
 
 Website:
-https://yourusername.github.io/future-city-simulator/
 Repository:
-https://github.com/yourusername/future-city-simulator
-(Replace yourusername with your GitHub username)
+
+https://github.com/0xbhoomi/future-city-simulator
 Why This Project?
 Cities are responsible for the majority of global energy use and carbon emissions. However, most people do not get to see how everyday decisions scale up into large environmental impacts.
 This project aims to bridge that gap by turning urban planning into an interactive learning experience.
